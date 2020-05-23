@@ -87,6 +87,6 @@ int main(void)
 
 /*
 Expected output:
-This is a word array program
+This is a word array program end 
 
 */
