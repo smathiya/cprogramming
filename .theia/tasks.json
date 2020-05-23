@@ -1,0 +1,22 @@
+{
+    "tasks": [
+        {
+            "type": "che",
+            "label": "build",
+            "command": "g++ -g hello.cpp -o hello.out && echo \"Build complete\"",
+            "target": {
+                "workingDir": "${CHE_PROJECTS_ROOT}/cpp-hello-world",
+                "component": "cpp-dev"
+            }
+        },
+        {
+            "type": "che",
+            "label": "run",
+            "command": "./hello.out",
+            "target": {
+                "workingDir": "${CHE_PROJECTS_ROOT}/cpp-hello-world",
+                "component": "cpp-dev"
+            }
+        }
+    ]
+}

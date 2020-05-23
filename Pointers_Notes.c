@@ -1,13 +1,13 @@
-struct Wheel
+typedef struct 
 {
    int dia;
    int width;
-};
+}Wheel;
 
-struct Car
+typedef struct 
 {
     Wheel w[4];    
-};
+}Car;
 
 1) Car cars[5];  Tip: read it as Car[5] cars; cars is an array of Car
 

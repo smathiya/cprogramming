@@ -26,7 +26,8 @@ void InitializeWordArray(WordArray *warray)
 	if (warray == NULL)
 		return;
 	warray->num_words = 0;
-	for (int i = 0; i < MAX_WORD_COUNT; i++)
+    int i;
+	for (i = 0; i < MAX_WORD_COUNT; i++)
 		warray->start_indices[i] = -1;
 	warray->buffer[0] = '\0';
 }
@@ -62,8 +63,8 @@ void PrintSentence(WordArray *warray)
 
 	if (warray == NULL)
 		return;
-	
-	for (int i = 0; i < warray->num_words; i++)
+	int i ;
+	for ( i = 0; i < warray->num_words; i++)
 	{
 		int word_start_index = warray->start_indices[i];
 		printf("%s ", &warray->buffer[word_start_index]);

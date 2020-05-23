@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "gdb",
+        "name": "Debug c++ application",
+        "request": "launch",
+        "program": "/projects/cpp-hello-world/hello.out"
+    }
+]
+}
