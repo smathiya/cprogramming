@@ -43,6 +43,11 @@ void printall1(struct node *d)
 // This is inefficient . To popular ways to solve: 
 // 1. Keep both head and tail pointers
 // 2. Keep adding at the front . Here order is not preserved
+void addnode(struct node *head,struct node *newNode)
+{
+
+}
+
 int main()
 {
 
