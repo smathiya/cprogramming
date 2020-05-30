@@ -24,6 +24,7 @@ int main ()
      printf("size of pname %d\n",sizeof(*pname));
      printf("size of sname %d\n",sizeof(sname));
      printf("Number is %d\n", inum);
+     printf("Number is %d\n", inum);
 
      printf("Number is %d\n", *pname);
 }
